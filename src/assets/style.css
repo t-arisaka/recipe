@@ -1,0 +1,293 @@
+/*画面全体*/
+.setting {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    margin-bottom: 30px;
+}
+
+/**/
+.settingTitle{
+    margin-left: 10px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 21px;
+}
+/*ヘッダー(上余白)*/
+.setting-header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*?*/
+.setting-header {
+    height: 55px;
+}
+/*?*/
+.setting-header h5 {
+    margin-left: 3%;
+    margin-top: 1.5%;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+/*ヘッダー色?*/
+.setting-header a {
+    text-decoration: none;
+    color: white;
+}
+/*?*/
+.setting-header img {
+    height: 30px;
+}
+
+.train-test {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.setting-content p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.setting-content select {
+    margin-bottom: 3%;
+}
+
+.nav-button {
+    background-color: #ecf0f1;
+    color: black;
+    border-color: #2d3d50;
+    border-width: 2px;
+    font-size: 15px;
+}
+.nav-button:hover{
+    background-color: #2d3d50;
+    border-color: #2d3d50;
+    color: white;
+    transition: 0.3s;
+}
+
+.button-contena {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.button-contena button {
+    margin: 1% 1% 1% 0;
+    height: 45px;
+}
+
+.target-variable p {
+    font-size: 18px;
+}
+
+#pie-chart {
+    height: 83%;
+}
+
+.icon {
+    position: absolute;
+    width: 40px;
+    top: 15px;
+    right: 15px;
+    color: black;
+}
+/*タブ初期位置かな*/
+.tabs {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+/*タブ位置*/
+.tabs-contena {
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 15px;
+    /* margin-top: 50px; */
+    /*↓ここだけ作り方の商品名材料などの文字サイズ変わる？？？*/
+    font-size: 20px;
+}
+/*閉じタブ*/
+.tab {
+    font-size: 20px;
+    color: #18bc9c;
+}
+/*左グラフ*/
+#tab1-fig1 {
+    height: 480px;
+}
+/*右グラフ*/
+#tab1-fig2 {
+    height: 480px;
+}
+#tab1-fig3{
+    height: 480px;
+}
+
+.card-contena {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-chart td {
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.tab2-title {
+    display: flex;
+}
+
+.color-palette-collapse {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.select-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.select-box select {
+    width: 200px;
+    margin-right: 20px;
+}
+
+#stock-index {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.select-box h5 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.calendar {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.selecter-index {
+    width: 300px;
+    margin-right: 20px;
+}
+
+.tab3-contena {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.text-indent {
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.help-section {
+    align-items: center;
+}
+/*下フッター全体*/
+.footer {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    height: 75px;
+}
+/*フッター文字*/
+.footer p {
+    margin-top: 30px;
+}
+
+.graph-contena1-sub {
+    display: none;
+}
+
+/* #tab1_table1_2{
+    background-color: black;
+    max-width: 200px;
+    font-size: 10px;
+} */
+#tab1_table1_2 th{
+    font-size: 10px;
+}
+.matrix-chart{
+    max-width: 1000px;
+}
+.matrix{
+    overflow-x: auto;
+}
+
+
+@media (max-width: 1200px) {
+    .dash-icon {
+        display: none;
+    }
+    .graph-contena1 {
+        display: none;
+    }
+    .graph-contena1-sub {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    .card-contena h5 {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .select-box {
+        display: inline;
+    }
+    .select-box h5 {
+        margin-bottom: 5px;
+    }
+    .calendar {
+        margin-bottom: 10px;
+    }
+    .selecter-index {
+        margin-bottom: 10px;
+    }
+}
+  
+
+
+
+
+
+.navibar{
+    display: flex;
+    justify-content: right;
+}
+
+.tabs {
+    margin-top: 50px;
+}
+
+.tab1-fig-contena {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    height: 100%;
+}
+
+
+
+/* chatgpt用 追加 */
+.sidebar_group {
+    justify-content: center;
+
+}
+
+.az{
+    display: grid;
+    justify-content: flex-end;
+}
